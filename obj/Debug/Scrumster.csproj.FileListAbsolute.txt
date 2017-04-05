@@ -1,1 +1,8 @@
 c:\users\martin\documents\visual studio 2015\Projects\Scrumster\Scrumster\bin\Debug\Scrumster.exe.config
+c:\users\martin\documents\visual studio 2015\Projects\Scrumster\Scrumster\bin\Debug\Scrumster.exe
+c:\users\martin\documents\visual studio 2015\Projects\Scrumster\Scrumster\bin\Debug\Scrumster.pdb
+c:\users\martin\documents\visual studio 2015\Projects\Scrumster\Scrumster\obj\Debug\Scrumster.Properties.Resources.resources
+c:\users\martin\documents\visual studio 2015\Projects\Scrumster\Scrumster\obj\Debug\Scrumster.csproj.GenerateResource.Cache
+c:\users\martin\documents\visual studio 2015\Projects\Scrumster\Scrumster\obj\Debug\Scrumster.exe
+c:\users\martin\documents\visual studio 2015\Projects\Scrumster\Scrumster\obj\Debug\Scrumster.pdb
+c:\users\martin\documents\visual studio 2015\Projects\Scrumster\Scrumster\obj\Debug\Scrumster.Scrumster.resources
