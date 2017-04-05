@@ -6,3 +6,4 @@ c:\users\martin\documents\visual studio 2015\Projects\Scrumster\Scrumster\obj\De
 c:\users\martin\documents\visual studio 2015\Projects\Scrumster\Scrumster\obj\Debug\Scrumster.exe
 c:\users\martin\documents\visual studio 2015\Projects\Scrumster\Scrumster\obj\Debug\Scrumster.pdb
 c:\users\martin\documents\visual studio 2015\Projects\Scrumster\Scrumster\obj\Debug\Scrumster.Scrumster.resources
+c:\users\martin\documents\visual studio 2015\Projects\Scrumster\Scrumster\obj\Debug\Scrumster.csprojResolveAssemblyReference.cache

@@ -13,6 +13,7 @@ namespace Scrumster
     public partial class Scrumster : Form
     {
         private string storyBoxPlaceHolder = "Enter new story text here...";
+        private string todoBoxPlaceHolder = "Enter new TODO here...";
 
         public Scrumster()
         {
@@ -36,7 +37,7 @@ namespace Scrumster
 
         private void newStory_Click(object sender, EventArgs e)
         {
-            if (storyTextBox.Text.Length > 0 && (storyTextBox.Text != storyBoxPlaceHolder))
+            if (checkTextForLengthAndPlaceholder(storyTextBox, storyBoxPlaceHolder))
             {
                 storyList.Items.Add(storyTextBox.Text);
             }
@@ -53,6 +54,25 @@ namespace Scrumster
             if (storyTextBox.Text.Length < 1)
             {
             storyTextBox.Text = storyBoxPlaceHolder;
+            }
+        }
+
+        private void newTodo_Click(object sender, EventArgs e)
+        {
+            if(checkTextForLengthAndPlaceholder(todoTextBox, todoBoxPlaceHolder))
+            {
+                todoList.Items.Add(todoTextBox.Text);
+            }
+        }
+
+        private Boolean checkTextForLengthAndPlaceholder(TextBox textBox, string placeHolderText)
+        {
+            if (textBox.Text.Length > 0 && (textBox.Text != placeHolderText))
+            {
+                return true;
+            }else
+            {
+                return false;
             }
         }
     }

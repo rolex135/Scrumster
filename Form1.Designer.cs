@@ -42,6 +42,10 @@
             this.storyList = new System.Windows.Forms.ListView();
             this.storyTextBox = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
+            this.todoTextBox = new System.Windows.Forms.TextBox();
+            this.todoList = new System.Windows.Forms.ListView();
+            this.newTodo = new System.Windows.Forms.Button();
+            this.label7 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -177,11 +181,55 @@
             this.label6.Text = "Story list";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // todoTextBox
+            // 
+            this.todoTextBox.Location = new System.Drawing.Point(231, 56);
+            this.todoTextBox.Multiline = true;
+            this.todoTextBox.Name = "todoTextBox";
+            this.todoTextBox.Size = new System.Drawing.Size(121, 72);
+            this.todoTextBox.TabIndex = 12;
+            this.todoTextBox.Text = "Enter new TODO here...";
+            // 
+            // todoList
+            // 
+            this.todoList.CheckBoxes = true;
+            this.todoList.GridLines = true;
+            this.todoList.Location = new System.Drawing.Point(231, 192);
+            this.todoList.Name = "todoList";
+            this.todoList.Size = new System.Drawing.Size(121, 378);
+            this.todoList.TabIndex = 11;
+            this.todoList.UseCompatibleStateImageBehavior = false;
+            // 
+            // newTodo
+            // 
+            this.newTodo.Location = new System.Drawing.Point(252, 134);
+            this.newTodo.Name = "newTodo";
+            this.newTodo.Size = new System.Drawing.Size(75, 23);
+            this.newTodo.TabIndex = 10;
+            this.newTodo.Text = "Add new";
+            this.newTodo.UseVisualStyleBackColor = true;
+            this.newTodo.Click += new System.EventHandler(this.newTodo_Click);
+            // 
+            // label7
+            // 
+            this.label7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
+            this.label7.Location = new System.Drawing.Point(231, 160);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(121, 25);
+            this.label7.TabIndex = 13;
+            this.label7.Text = "TODO  list";
+            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // Scrumster
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1258, 583);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.todoTextBox);
+            this.Controls.Add(this.todoList);
+            this.Controls.Add(this.newTodo);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.storyTextBox);
             this.Controls.Add(this.storyList);
@@ -218,6 +266,10 @@
         private System.Windows.Forms.ListView storyList;
         private System.Windows.Forms.TextBox storyTextBox;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox todoTextBox;
+        private System.Windows.Forms.ListView todoList;
+        private System.Windows.Forms.Button newTodo;
+        private System.Windows.Forms.Label label7;
     }
 }
 
